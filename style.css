@@ -1,17 +1,4 @@
-.navbar-brand{
-    padding-right: 10px;
-}
-.login{
-    margin-left: 360px;
-    margin-right: 20px;
+.transparentbutton{
     background-color: transparent;
     border-color: transparent;
-}
-.panier{
-    background-color: transparent;
-    border-color: transparent;
-}
-.btn-primary{
-    background-color: #28a745 !important;
-    border-color: #28a745;
 }
