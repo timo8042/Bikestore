@@ -29,6 +29,31 @@
   </div>
 </nav>
 
+<div class="container-fluid">
+  <div class="row justify-content-md-center">
+    <div class="col-md-3" style="border-right-style: solid;">
+
+    </div>
+    <div class="col col-lg">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            test
+            </ul>
+          </div>
+        </nav>
+      </div></br>
+      <div class="container-fluid">
+        test
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 <div class="modal fade" id="panier" tabindex="-1" role="dialog" aria-labelledby="panier" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
