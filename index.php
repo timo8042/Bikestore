@@ -9,10 +9,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css"
 </head>
-
-<?php include('menu.php'); ?>
-
 <body style="margin-top : 6%;">
+  <?php include('menu.php'); ?>
   <div class="row">
     <div class="col-sm-2">
         <?php include('menu-vert.php'); ?>

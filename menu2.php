@@ -1,5 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.php">Accueil</a>
+            </li>
+        </ul>
         <ul class="navbar-nav mx-auto">
 <?php
 $conn = new mysqli("localhost", "root", "", "bikestore");
@@ -27,7 +32,7 @@ $res = mysqli_query($conn, $req);
                     <?php
                         while ($count2 = mysqli_fetch_array($res2)){
                             $sousfamille = $count2['nomsousfamille']; ?>
-                                <a class="dropdown-item" href="#"> <?php echo $sousfamille; ?> </a>
+                                <a class="dropdown-item" href="article.php?article=<?php echo $sousfamille ?>" id="<?php $sousfamille ?>"> <?php echo $sousfamille; ?> </a>
                     <?php } ?>
             </div>
         </li>
